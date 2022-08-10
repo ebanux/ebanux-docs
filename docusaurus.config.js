@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'terms_of_service',
+            docId: 'Terms',
             position: 'left',
             label: 'Terms of service',
           },
@@ -71,7 +71,7 @@ const config = {
       //       items: [
       //         {
       //           label: 'Tutorial',
-      //           to: '/docs/terms_of_service',
+      //           to: '/docs/terms',
       //         },
       //         {
       //           label: 'Roadmap',

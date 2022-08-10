@@ -19,7 +19,7 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    'terms_of_service',
+    'Terms',
   ],
 };
 
