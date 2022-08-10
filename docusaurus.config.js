@@ -6,16 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cenit IO - Docs',
+  title: 'Ebanux - Docs',
   staticDirectories: ['public', 'static'],
-  tagline: 'Open iPaaS',
-  url: 'https://docs.cenit.io',
+  tagline: 'Sell anywhere',
+  url: 'https://docs.ebanux.com',
   baseUrl: '/',
   onBrokenLinks: 'ignore', //'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.svg',
-  organizationName: 'cenit-io', // Usually your GitHub org/user name.
-  projectName: 'cenit-docs', // Usually your repo name.
+  organizationName: 'ebanux', // Usually your GitHub org/user name.
+  projectName: 'ebanux-docs', // Usually your repo name.
 
   presets: [
     [
@@ -24,12 +24,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/cenit-io/cenit-docs/edit/master/',
+          editUrl: 'https://github.com/ebanux/ebanux-docs/edit/master/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/cenit-io/cenit-docs/edit/master/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/ebanux/ebanux-docs-docs/edit/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -51,13 +51,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'terms_of_service',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Terms of service',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/cenit-io/cenit-docs',
+            href: 'https://github.com/ebanux/ebanux-docs-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -71,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/terms_of_service',
               },
               {
                 label: 'Roadmap',
@@ -105,16 +105,16 @@ const config = {
               },
               {
                 label: 'Suggest a feature',
-                href: 'https://github.com/cenit-io/cenit/issues/new?assignees=&labels=&template=feature_request.md&title=',
+                href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=feature_request.md&title=',
               },
               {
                 label: 'Report an issue',
-                href: 'https://github.com/cenit-io/cenit/issues/new?assignees=&labels=&template=bug_report.md&title=',
+                href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=bug_report.md&title=',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cenit IO, LLC.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ebanux, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
