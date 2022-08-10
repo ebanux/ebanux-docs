@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/terms_of_service">
-            Cenit IO Tutorial - 30min ⏱️
+            Terms of Service
           </Link>
         </div>
       </div>

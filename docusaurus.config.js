@@ -41,7 +41,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Cenit I0 - Docs',
+        title: 'Ebanux - Docs',
         // logo: {
         //   alt: 'Cenit I0 - Docs Logo',
         //   src: 'img/logo2.svg',
@@ -63,59 +63,59 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'light',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/terms_of_service',
-              },
-              {
-                label: 'Roadmap',
-                href: 'https://cenit.frill.co/roadmap',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/cenit-io/',
-              },
-              {
-                label: 'Slack',
-                href: 'https://join.slack.com/t/cenitio/shared_invite/zt-16z88smty-4B9SPlL0ro~53ctg1TqZZw',
-              },
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/c/CenitIO',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                href: 'https://cenit.frill.co/b/6m4lrkv4/feature-ideas',
-                label: 'Feature ideas',
-              },
-              {
-                label: 'Suggest a feature',
-                href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=feature_request.md&title=',
-              },
-              {
-                label: 'Report an issue',
-                href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=bug_report.md&title=',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ebanux, Inc.`,
-      },
+      // footer: {
+      //   style: 'light',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'Tutorial',
+      //           to: '/docs/terms_of_service',
+      //         },
+      //         {
+      //           label: 'Roadmap',
+      //           href: 'https://cenit.frill.co/roadmap',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'LinkedIn',
+      //           href: 'https://www.linkedin.com/company/cenit-io/',
+      //         },
+      //         {
+      //           label: 'Slack',
+      //           href: 'https://join.slack.com/t/cenitio/shared_invite/zt-16z88smty-4B9SPlL0ro~53ctg1TqZZw',
+      //         },
+      //         {
+      //           label: 'Youtube',
+      //           href: 'https://www.youtube.com/c/CenitIO',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           href: 'https://cenit.frill.co/b/6m4lrkv4/feature-ideas',
+      //           label: 'Feature ideas',
+      //         },
+      //         {
+      //           label: 'Suggest a feature',
+      //           href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=feature_request.md&title=',
+      //         },
+      //         {
+      //           label: 'Report an issue',
+      //           href: 'https://github.com/ebanux/ebanux-docs/issues/new?assignees=&labels=&template=bug_report.md&title=',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} Ebanux, Inc.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
