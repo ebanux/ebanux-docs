@@ -19,7 +19,22 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    'Terms',
+    'intro', 
+    {
+      type: 'category',
+      label: 'Ebanux',
+      items: ['ebanux/ebanux','ebanux/payment_links'],
+    },	
+    {
+      type: 'category',
+      label: 'Stripe',
+      items: ['stripe/stripe','stripe/stripe_payment_links'],
+    },	
+    {
+      type: 'category',
+      label: 'Payoneer',
+      items: ['payoneer/payoneer','payoneer/payoneer_payment_links'],
+    },		
   ],
 };
 
