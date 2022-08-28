@@ -51,9 +51,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Terms',
+            docId: 'intro',
             position: 'left',
-            label: 'Terms of service',
+            label: 'Tutorial',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -63,22 +63,26 @@ const config = {
           },
         ],
       },
-      // footer: {
-      //   style: 'light',
-      //   links: [
-      //     {
-      //       title: 'Docs',
-      //       items: [
-      //         {
-      //           label: 'Tutorial',
-      //           to: '/docs/terms',
-      //         },
+       footer: {
+         style: 'light',
+         links: [
+           {
+             title: 'Docs',
+             items: [
+               {
+                 label: 'Tutorial',
+                 to: '/docs/intro',
+               },
+              {
+                label: 'Terms of Service',
+                to: '/docs/terms',
+              },			   
       //         {
       //           label: 'Roadmap',
       //           href: 'https://cenit.frill.co/roadmap',
       //         },
-      //       ],
-      //     },
+             ],
+           },
       //     {
       //       title: 'Community',
       //       items: [
@@ -113,9 +117,9 @@ const config = {
       //         },
       //       ],
       //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} Ebanux, Inc.`,
-      // },
+         ],
+         copyright: `Copyright © ${new Date().getFullYear()} Ebanux, Inc.`,
+       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
