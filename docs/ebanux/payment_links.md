@@ -4,52 +4,6 @@ Payment links allow customers to click a link or scan a QR code to access a fast
 
 To create a payment link you need to create a product first or you just can create the product directly from the payment links view.
 
-For managing products you must select the option Products in the main menu as shown below
-
-![image](https://user-images.githubusercontent.com/54523080/186452746-d72a4823-26d1-4fdf-b5e2-0104d296fdaf.png)
-
-When you enter the Products view, you can see the list of products as shown below
-
-![image](https://user-images.githubusercontent.com/54523080/186458086-771bdfe2-7c91-4b32-94de-38301430f132.png)
-
-You can edit a product or see its details by using the context menu located at the right of every product.
-
- ![image](https://user-images.githubusercontent.com/54523080/186464648-c6537500-3eaf-415c-93d5-5ed9e35fe5e1.png)
-
-### Create a new product
-
-To create a new product you must press either the Add button or the Add product option in the sidebar menu as shown below.
-
-![image](https://user-images.githubusercontent.com/54523080/186470101-d109b871-b6d6-4f93-bda5-b67e0465ccb5.png)
-
-Then you need to enter the product information
-
-![image](https://user-images.githubusercontent.com/54523080/186471446-22b8321d-655f-4feb-8ac8-6f167cd30f0a.png)
-
-- Image(optional): A product image
-
-- Name: The product name.
-
-- Price: The product price
-
-- Price currency: The price currency (Default value: USD)
-
-- Included tax in price: Set this field true if the price includes the tax, false if not.
-
-- Payment frequency: Select  ONE TIME for collecting once and RECURRING for collecting at intervals as a Stripe Subscription. The default value is ONE TIME, if you choose RECURRING you must select the interval.
-
-- Payment Interval (Only if the Payment frequency is RECURRING): Select Day, Week, Month or Year as the interval to collect the payment.
-
-- Description: A description for the product.
-
-After entering the product data you must press the button Save
-
-![image](https://user-images.githubusercontent.com/54523080/186475863-5b75afcf-1033-4119-95bd-baeca143b137.png)
-
-And you will see the product in the list
-
-![image](https://user-images.githubusercontent.com/54523080/186477917-b98b0608-d12b-4bc3-91f4-c0eebe6e5562.png)
-
 ### Create a new payment link
 
 You can create a payment link from the Products view by selecting the option Add payment link in the sidebar menu
@@ -139,3 +93,45 @@ After completing to enter the payment link information you must press the button
 And you can see the payment link in the list.
 
 ![image](https://user-images.githubusercontent.com/54523080/186822684-21239891-49f4-4d03-b628-f6ab3f14cdc3.png)
+
+### Manage an existing payment link
+
+You can manage an existing payment by accessing the context menu button at the end of the line for an especific payment link. Besides, there are two more actions available for every payment link: Copy the link and Customize a QR Code for the link.
+
+![image](https://user-images.githubusercontent.com/54523080/187281072-5ff6db1a-9f47-4ad2-9a5c-eb8609036c7d.png)
+
+The context menu allows to see the payment link details  or deactivate it.
+
+![image](https://user-images.githubusercontent.com/54523080/187281921-067c1a16-cb3a-414a-8745-77e3e7cc143c.png)
+
+To see the payment link's detail press the option Details.
+
+![image](https://user-images.githubusercontent.com/54523080/187282200-0771ad51-0b3a-4ad8-8fb2-1fc4440adee7.png)
+
+After selecting Details, the details view is shown. You can go back to the list of payment links by using the Back button in the top bar.
+
+![image](https://user-images.githubusercontent.com/54523080/187285474-6717bd86-7cab-4ace-9b51-8a915e4cb0d0.png)
+
+The option Deactivate allows you to deactivate a payment link
+
+![image](https://user-images.githubusercontent.com/54523080/187287439-6dd12c05-476b-4cb5-8959-40f8a334a3bb.png)
+
+After deactivating the payment link it appear as Deactivated in the list. So the actions to copy the link and customize the QR code are disabled for the link which is deactivated.
+
+![image](https://user-images.githubusercontent.com/54523080/187289868-d703cb4b-3006-4c0a-b994-cfa86757c330.png)
+
+### Share a payment link
+
+For sharing the payment link as a URL, you can copy the link by using any of the two buttons shown in the picture below.
+
+![image](https://user-images.githubusercontent.com/54523080/187293083-26905f78-7b6c-46dc-84ab-8e36879ecf55.png)
+
+You can also share the payment link as a QR code by pressing the button Custom QR.
+
+![image](https://user-images.githubusercontent.com/54523080/187293455-6c8606ba-1c08-4b19-883b-b3a3768bbc8c.png)
+
+By pressing the button Custom QR you will be able to customize a QR code for your payment link in The QR Link app.
+
+![image](https://user-images.githubusercontent.com/54523080/187293696-1f66f7bc-3118-4654-aba7-069e25167504.png)
+
+To learn how to customize a QR code by using The QR Link app you should read: https://docs.theqr.link/

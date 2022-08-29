@@ -35,3 +35,5 @@ Stripe accomplish the strictest security standards. They exceed industry securit
 - Stripe is a PCI Service Provider Level 1 which is the highest grade of payment processing security. You can rest assured that your donors information is safe and secure.
 
 - All credit card numbers are encrypted and safely stored in Stripe's state of the art data-center. This ensures both the security and integrity of your donors information.
+
+To know more about Stripe you can read: https://stripe.com/docs

@@ -22,8 +22,4 @@ Ebanux platform's fee is 1%, included in a total transaction fee of 3.9% + 30¢.
 
 For example, a total payment of 10.00 USD the seller receives 9.31 USD. The total transaction fee is 69¢(3.9% + 30¢), made up of two components: the Stripe processing fee is $59¢(2.9% + 30¢), the Ebanux platform fee is 10¢(1%).
 
-#### Ebanux partnership
-
-Ebanux partners with Stripe to handle KYC obligations and meet requirements for payment compliance. So we recommend to use an Stripe Account when you edit your payout settings. To know more about Stripe you should read:  [Stripe](stripe/stripe.md) 
-
-However, there are some countries where Stripe is not available. When that's the case, you can use a Payoneer Account when you edit your payout settings. To know more about Payoneer you should read: [Payoneer](payoneer/payoneer.md)
+To know more about how to create a product or a payment link you should read the sections [Products](products.md) and [Payment Links](payment_links.md)
