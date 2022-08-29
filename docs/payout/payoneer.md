@@ -27,3 +27,7 @@ Payoneer is PCI compliant to protect credit card data and compliant with anti-mo
 - Multiple layers of risk technology guaranteed
 
 - PCI Level 1 Certified with regular audits
+
+To know more about Payoneer you can check these resources: https://www.payoneer.com/resources/
+
+s

@@ -23,18 +23,14 @@ const sidebars = {
     {
       type: 'category',
       label: 'Ebanux',
-      items: ['ebanux/ebanux','ebanux/payment_links'],
+      items: ['ebanux/ebanux','ebanux/products','ebanux/payment_links'],
     },	
     {
       type: 'category',
-      label: 'Stripe',
-      items: ['stripe/stripe','stripe/stripe_payment_links'],
+      label: 'Payout',
+      items: ['payout/payout','payout/stripe','payout/payoneer'],
     },	
-    {
-      type: 'category',
-      label: 'Payoneer',
-      items: ['payoneer/payoneer','payoneer/payoneer_payment_links'],
-    },		
+
   ],
 };
 
