@@ -23,7 +23,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Ebanux',
-      items: ['ebanux/ebanux','ebanux/products','ebanux/payment_links'],
+      items: ['ebanux/ebanux','ebanux/registration','ebanux/products','ebanux/payment_links'],
     },	
     {
       type: 'category',

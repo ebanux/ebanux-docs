@@ -23,3 +23,5 @@ Ebanux platform's fee is 1%, included in a total transaction fee of 3.9% + 30¢.
 For example, a total payment of 10.00 USD the seller receives 9.31 USD. The total transaction fee is 69¢(3.9% + 30¢), made up of two components: the Stripe processing fee is $59¢(2.9% + 30¢), the Ebanux platform fee is 10¢(1%).
 
 To know more about how to create a product or a payment link you should read the sections [Products](products.md) and [Payment Links](payment_links.md)
+
+To know how to register in Ebanux you should read the section [Registration](registration.md)
